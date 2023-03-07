@@ -59,10 +59,10 @@
 
 ////////////////////////////////
 // Yell at the Ninja Turtles
-const ninjaTurtles = ["Leonardo", "Donatello", "Michaelangelo", "Raphael"];
-for (const value of ninjaTurtles) {
-  console.log(value.toUpperCase(value));
-}
+// const ninjaTurtles = ["Leonardo", "Donatello", "Michaelangelo", "Raphael"];
+// for (const value of ninjaTurtles) {
+//   console.log(value.toUpperCase(value));
+// }
 ////////////////////////////////
 
 ////////////////////////////////
