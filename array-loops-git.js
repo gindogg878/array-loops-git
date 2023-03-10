@@ -67,6 +67,50 @@
 
 ////////////////////////////////
 // Methods, Revisited
+const favMovies = [
+  "Jaws",
+  "The Fellowship of the Ring",
+  "Howl's Moving Castle",
+  "Django Unchained",
+  "Cloud Atlas",
+  "The Usual Suspects",
+  "Toy Story",
+  "Conan the Barbarian",
+  "Titanic",
+  "Harry Potter",
+  "Fried Green Tomatoes",
+  "Volver",
+  "Oculus",
+  "Seven",
+  "Black Panther",
+  "Harry Potter",
+  "Imitation of Life",
+  "Snatch",
+  "Fast and Furious",
+];
+console.log(favMovies.indexOf("Titanic"));
+
+console.log(favMovies.sort()); //original array is sorted no copy is made//
+console.log(favMovies.pop()); //return the element popped, pops the last element of array
+console.log(favMovies);
+favMovies.push("Guardians of the Galaxy"); //adds element to the end of the array
+console.log(favMovies);
+favMovies.reverse(); //original array is reversed no copy is made//
+console.log(favMovies);
+favMovies.shift(); //will remove the first element of an array , can return the element removed//
+console.log(favMovies);
+//favMovies.unshift('Pulp Fiction')//will add any amount of elements to front of array; will return the array.length//
+
+favMovies.splice(14, 1, "Avatar"); //removes element at 'a', how many elements 'b' and string or element that will replace it (splice(a,b, newElement))
+console.log(favMovies);
+
+let half = 0.5 * favMovies.length;
+
+console.log(favMovies.slice(half)); //slice(a,b) can give it a starting index and ending index to slice: end index not included
+// console.log(favMovies);
+
+console.log(favMovies.indexOf("Volver"));
+
 ////////////////////////////////
 
 ////////////////////////////////
